@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🌍 Travel Recommendation App
+Bienvenue dans l'application de recommandation de destinations de voyage basée sur les images ! 🚀 Cette application permet aux utilisateurs de découvrir des destinations en fonction de leurs préférences, de générer des images personnalisées via une description, et de sauvegarder leurs favoris pour des recommandations futures. 🌴
 
-## Getting Started
+✨ Fonctionnalités principales
+🎯 Recommandations personnalisées :
 
-First, run the development server:
+-L'application propose des destinations de voyage en fonction des favoris de l'utilisateur.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-Les recommandations sont générées dynamiquement en analysant les préférences de l'utilisateur.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Génération d'images personnalisées :
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-Les utilisateurs peuvent générer des images de destinations en fournissant une description textuelle de leurs préférences.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-L'application utilise une API externe pour générer des images réalistes et personnalisées.
 
-## Learn More
+❤️ Gestion des favoris :
 
-To learn more about Next.js, take a look at the following resources:
+-Les utilisateurs peuvent sauvegarder leurs destinations préférées dans une base de données.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Les favoris sont utilisés pour affiner les recommandations futures.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🖥️ Interface utilisateur intuitive :
 
-## Deploy on Vercel
+-Une interface conviviale permet aux utilisateurs de naviguer facilement entre les différentes fonctionnalités.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
